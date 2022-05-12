@@ -1,0 +1,39 @@
+Package: netskao.antiprofilesrevoke
+Architecture: iphoneos-arm
+Version: 1.1-1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 109
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./Deb/AntiProfileRevok.deb
+Size: 5150
+MD5sum: ed68c3ce95ff5770eea54319a2f0f017
+SHA1: c846627aa28e7f1b3c05bfee8971d970a4a80d62
+SHA256: a20cff4efacf025a547234934c4fc07e6dd1620391750bc93587955888bf7f02
+SHA512: 232f8e89d5460012386811067265a9a59c1cc9c17fc5c652779f13138bb5b038f07e93279510f8527766cf1e9980deff6595ef6ce9c27aae83dc50a7408c391c
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=antiprofilesrevokeDp
+Description: 越狱状态下忽略企业证书状态验证，使已经掉证书的应用依旧可以正常打开，支持iOS11-iOS14
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Name: AntiProfilesRevoke
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=antiprofilesrevokeDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: netskao
+
+Package: com.bonios.lqmbvn
+Architecture: iphoneos-arm
+Version: 1.4.5.17
+Section: Games
+Maintainer:  @BoniOS
+Installed-Size: 1096
+Depends: mobilesubstrate
+Filename: ./Deb/com.bonios.lqmbvn_1.4.5.17_iphoneos-arm.deb
+Size: 409674
+MD5sum: 69f77abc906f07c87890aeae8f2a50b8
+SHA1: e9928cec2506e68a447d86d9dff6bf43b44f67e3
+SHA256: e56c8bc49d5a9907772d4e8153661edbf5a9af5435a0d9f973d518b2734b8b09
+SHA512: 42cdc29054eedfb472bc044cabf93139b01c960b4e1480b248749b7f63dc7276bc43ddcd3e59b8f042b18f17aa7031a4f4fa0ec6d59a0c6e41ba65212f235280
+Description: Menu LQMB VN (3F touch)
+Name:  LQMB VN 1.4.5.17
+Author:  @BoniOS
+

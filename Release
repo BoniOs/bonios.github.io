@@ -1,0 +1,11 @@
+Origin: BoniOs Repo 💮
+Label: BoniOs Hack Repo 💮
+Suite: stable
+Version: 1.0
+Codename: ios
+Architecture: iphoneos-arm
+Components: main
+Description: Kho Lưu Trữ Của BoniOS 
+MD5Sum:
+ b219ecf9ceb88639aacecea39bdebe79 1629 Packages
+ ff5e8f4d35ca277159ebbc3ccfff4b66 1086 Packages.bz2
