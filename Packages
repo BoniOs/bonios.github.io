@@ -20,6 +20,60 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=antiprofil
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: netskao
 
+Package: com.34306.genshinjailbreakbypass
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: Little 34306
+Installed-Size: 264
+Depends: mobilesubstrate
+Conflicts:
+Filename: ./Deb/com.34306.genshinjailbreakbypass_1.1_iphoneos-arm.deb
+Size: 7530
+MD5sum: 261f4f19276e6e43e7cf3ccc655472fd
+SHA1: 5c76d9e5878eaa8dceb14459a137b002a62e3f4d
+SHA256: e3a978d1fe17191e47eb3ff1a2a74b2bb32d827b18f37a8c451c96ed1557b1eb
+SHA512: 13daff1e354fc4b25c6e0e4f56bc9396453137b6723db6f007da4e5f7383db594b03c1e02a6191cc9eb52ffd51a990df311b6f152a65638886bf13d76c058805
+Description: Bypass "Data error, please login again" mesage
+Name: Genshin Jailbreak Bypass
+Author: iVoider <alex@playcover.me>
+Icon:
+
+Package: com.34306.libFAHMenu
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Little 34306
+Depends: mobilesubstrate
+Filename: ./Deb/com.34306.libfahmenu_1.0_iphoneos-arm.deb
+Size: 176082
+MD5sum: b6731ac63ea272a38db6e6605653be07
+SHA1: 02761595b7c559c3c08d797ea1af92a0182894ed
+SHA256: cb212bdfe8df67d13d5c39b884881e208d99b6f69f3feb91372c30b058c07eb2
+SHA512: 3fc1ef13f4afc500f81f87e7ebe891fe19ee2195715a90d54aa80b15fe3b4f0eb7bd478792f34e1e55470ab2fa4d965ef3a1a25e9bd21f35164d54dda6b58200
+Description: Library for FAH Menu!
+Name: libFAHMenu
+Author: fahlnbg
+
+Package: com.bonios.keyboard
+Architecture: iphoneos-arm
+Version: 0.0.1-2+debug-2+debug
+Section: Tweaks
+Maintainer: BoniOs
+Installed-Size: 64
+Depends: mobilesubstrate
+Filename: ./Deb/com.bonios.keyboard_0.0.1-2+debug-2+debug_iphoneos-arm.deb
+Size: 4248
+MD5sum: 240c67462566445e05ebb339d9483d18
+SHA1: 7a7ede35e5990ee92e5fe5b9b0d3790a9b006472
+SHA256: d1b3cd6cd60b5088d1d5ce7444df4065e783db56899a16761c42eb4eb280ea78
+SHA512: 884b79524d54fda59845d1ed1a3308b342e49cd15b7882fa57c84ad026e4c966f871ea29e05a490288c5b893bba4f5cfbf33f1cc8fd97b50a0a66e863915850e
+Homepage: https://bonios.github.io/info/ban-phim-bo-tron/?p=info
+Description: Làm cho bàn phím có phong cách tối với các phím tròn.
+Name: Bàn Phím Đen Bo Tròn
+Author: BoniOs
+Depiction: https://bonios.github.io/info/ban-phim-bo-tron/?p=info
+
 Package: com.bonios.lqmbvn
 Architecture: iphoneos-arm
 Version: 1.4.5.17
@@ -36,4 +90,44 @@ SHA512: 42cdc29054eedfb472bc044cabf93139b01c960b4e1480b248749b7f63dc7276bc43ddcd
 Description: Menu LQMB VN (3F touch)
 Name:  LQMB VN 1.4.5.17
 Author:  @BoniOS
+
+Package: com.pxcex.picsarthack
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: pxcex
+Installed-Size: 288
+Depends: mobilesubstrate
+Filename: ./Deb/com.pxcex.picsarthack_0.0.1_iphoneos-arm.deb
+Size: 59222
+MD5sum: bc390e0e8068025760e6fd5a6455e1c2
+SHA1: 8dafdce902b18b1ea8d749dbe496a3e1357a9c27
+SHA256: 332ed4a682bc7596786bc23b6ff3c32c858f28d8828e9754cfef699a02130fa5
+SHA512: 2e59c9f083b21a75b45a0ee0c37d60bc72b9c7c7ffe78a3417ea918996040c28c475454c48b5dc45b3cdde961d39907ec35f6979c224014f1ec8b20d8e263a6e
+Description: PicsArt Gold.
+Tag: purpose::extension, compatible_max::ios12.2
+Name: PicsArt Hack
+Author: pxcex
+
+Package: net.angelxwind.appsyncunified
+Architecture: iphoneos-arm
+Version: 104.0
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 732
+Provides: appsync
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Filename: ./Deb/net.angelxwind.appsyncunified_104.0_iphoneos-arm.deb
+Size: 59144
+MD5sum: 4d4f867de80c03237897a0396d1bd90b
+SHA1: ec75e0cf681f50c11ced972d9990912f6d57af99
+SHA256: 720ab7caf651b5922c41ce2960d0a94a6e5c9c3be3c76676c33524a5d5eab0d3
+SHA512: 29953fe1f49f61ee44cdd7931a45a0d354f9bc8a173e4bfc198ae2d19ed52ba8ce5a74ff1a40bb252746742d218e5a55e1d7fd8bfd504215d72d67add913beb6
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 
