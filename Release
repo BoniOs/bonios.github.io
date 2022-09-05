@@ -7,5 +7,5 @@ Architecture: iphoneos-arm
 Components: main
 Description: Kho Lưu Trữ Của BoniOS 
 MD5Sum:
- fc4b21191707f5a3829676d41786ad9d 5758 Packages
- d0eed77eaedc2603228d06c14e0b7b33 2850 Packages.bz2
+ 512596e27a78190abc8dcb6f7d221d6c 103440 Packages
+ 2fbf54cf76f1a2a0882a5c23e5912da3 33006 Packages.bz2
