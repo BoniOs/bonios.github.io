@@ -1,8 +1,8 @@
 {
-    "主标题":"Unzip BoniOS",
-    "副标题":"t.me/boniosvn",
-    "取消":"Nhấp vào Hủy",
-    "功能":
+    "Title":"UnZip BoniOS",
+    "SubTitle":"t.me/boniosvn",
+    "Cancel":"Huỷ bỏ",
+    "Function":
     [
         {
             "按钮名字":"gói dữ liệu",
