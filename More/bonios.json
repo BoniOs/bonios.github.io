@@ -1,26 +1,26 @@
 {
-    "主标题":"远程菜单",
-    "副标题":"QQ350722326",
-    "取消":"点击取消",
+    "主标题":"Unzip BoniOS",
+    "副标题":"t.me/boniosvn",
+    "取消":"Nhấp vào Hủy",
     "功能":
     [
         {
-            "按钮名字":"数据包",
+            "按钮名字":"gói dữ liệu",
             "解压目录":"Library",
             "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
         {
-            "按钮名字":"解说包",
+            "按钮名字":"Gói giải thích",
             "解压目录":"Library",
             "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
         {
-            "按钮名字":"存档1",
+            "按钮名字":"Lưu trữ 1",
             "解压目录":"Documents",
             "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
         {
-            "按钮名字":"存档2",
+            "按钮名字":"Lưu trữ 2",
             "解压目录":"Documents",
             "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
