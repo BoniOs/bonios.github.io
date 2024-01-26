@@ -75,6 +75,27 @@ SHA256: 2b7c4f182e6ca18e4d8f9c0430f3b46df34bf41f22b6dd0f08bd028fee62f4ef
 SHA512: de17f98e3a3b2545e469bf8be8c43b13f788ec8bfadfb288a2045a085e7ecaff9ce7edb426054cd49bdbe51737081702406e7f803e2a23a72f878bb9f432b9d9
 Description: finger, fingerd, last, lsvfs, md, ps
 
+Package: applist
+Architecture: iphoneos-arm
+Version: 1.5.16
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./Deb/applist_1.5.16_iphoneos-arm.deb
+Size: 105098
+MD5sum: af1bdc77dd1805c249d416fa96957841
+SHA1: 843d2b873ad29a848c701af51f2e8a524770bc3a
+SHA256: b20901679ecd9a607636dd69d1c42fe074f6a3e8a5c21c20ecef893f1a9a4a7e
+SHA512: b7e71705b10ea05613dc01c28cf174517acc626a9866f4030365c3eb034a81b70927b1a59678f50ed24513b56785523e8e415f932970f48c1b30156048386d1e
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+
 Package: clang-10
 Architecture: iphoneos-arm
 Version: 10.0.0~svn-20200108+247e5b37d63-3
@@ -116,40 +137,30 @@ SHA512: 33fa936380cb3afe63fd664a15956b3b4397e5e8d71f2cfc1360f63147fdd0b09df041a8
 Homepage: https://www.llvm.org/
 Description: C, C++ and Objective-C compiler
 
-Package: com.34306.genshinjailbreakbypass
+Package: com.a3tweaks.flipswitch
 Architecture: iphoneos-arm
-Version: 1.1
-Section: Tweaks
-Maintainer: Little 34306
-Installed-Size: 264
-Depends: mobilesubstrate
-Conflicts:
-Filename: ./Deb/com.34306.genshinjailbreakbypass_1.1_iphoneos-arm.deb
-Size: 7530
-MD5sum: 261f4f19276e6e43e7cf3ccc655472fd
-SHA1: 5c76d9e5878eaa8dceb14459a137b002a62e3f4d
-SHA256: e3a978d1fe17191e47eb3ff1a2a74b2bb32d827b18f37a8c451c96ed1557b1eb
-SHA512: 13daff1e354fc4b25c6e0e4f56bc9396453137b6723db6f007da4e5f7383db594b03c1e02a6191cc9eb52ffd51a990df311b6f152a65638886bf13d76c058805
-Description: Bypass "Data error, please login again" mesage
-Name: Genshin Jailbreak Bypass
-Author: iVoider <alex@playcover.me>
-Icon:
-
-Package: com.34306.libFAHMenu
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Tweaks
-Maintainer: Little 34306
-Depends: mobilesubstrate
-Filename: ./Deb/com.34306.libfahmenu_1.0_iphoneos-arm.deb
-Size: 176082
-MD5sum: b6731ac63ea272a38db6e6605653be07
-SHA1: 02761595b7c559c3c08d797ea1af92a0182894ed
-SHA256: cb212bdfe8df67d13d5c39b884881e208d99b6f69f3feb91372c30b058c07eb2
-SHA512: 3fc1ef13f4afc500f81f87e7ebe891fe19ee2195715a90d54aa80b15fe3b4f0eb7bd478792f34e1e55470ab2fa4d965ef3a1a25e9bd21f35164d54dda6b58200
-Description: Library for FAH Menu!
-Name: libFAHMenu
-Author: fahlnbg
+Version: 1.0.16
+Section: System
+Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
+Installed-Size: 2408
+Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
+Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
+Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch, com.jakeashacks.realcc (<< 1.0.2)
+Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift, com.jakeashacks.realcc (<< 1.0.2)
+Filename: ./Deb/com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
+Size: 300972
+MD5sum: 516996c64c4bc054b5b4a67fcfba5a9c
+SHA1: d17d8a66c9d05739dbedc7255530462bdbc4863f
+SHA256: 2dab7e1ee02a638d49342b956b554c24fb4191168e43c91f57b3394926566ed6
+SHA512: c27bcee8a23d14d6326dd85d502bb645bf23d6e0134e9d9b3d43edf8e2cf774a72ac2410bcad6c822acccc9e1eb942773859e4cb4b977f49781bb153944562cd
+Homepage: https://rpetrich.com/cydia/flipswitch/
+Description: Centralized toggle system for iOS
+Tag: purpose::extension, role::developer
+Name: Flipswitch
+Depiction: https://rpetrich.com/cydia/flipswitch/
+Author: rpetrich <rpetrich+flipswitch@gmail.com>
+Icon: file:///Applications/Preferences.app/icon-table.png
+dev: flipswitch
 
 Package: com.alaise.azule
 Architecture: iphoneos-arm
@@ -166,6 +177,25 @@ SHA512: 75f2d1acb5a1bc55dc514ae3f013845064ef655f5ffbe66d1de956f9b05cb2e210046047
 Description: Một công cụ CLI đưa các chỉnh sửa vào các ứng dụng iOS bị bỏ tù
 Name: Azule
 Author: Alaise
+
+Package: com.BIENVANNHAT.relocateRebon
+Architecture: iphoneos-arm
+Version: 2.1
+Section: Tweaks
+Maintainer: Biện Văn Nhật
+Installed-Size: 492
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
+Conflicts: me.nepeta.relocate
+Filename: ./Deb/com.bienvannhat.relocaterebon_2.1_iphoneos-arm.deb
+Size: 118718
+MD5sum: 463db46908f445551ad0298713c48b0c
+SHA1: 26a60fce014a7cbf0072d9daaf08f6176bb92caf
+SHA256: e179a95886e0dc7b8a4049aa03a4f0e6d6df2068b6249cc4041cdb6c79478f9f
+SHA512: c4315cb450caf67db5486844b9eff108aab56ec2a13b9ce121ffc4961566ab272811c42ba5204cddddfd7cfc65cb5ee29fdc1253e3e84ab4c3088f5b45335706
+Description: Giả mạo vị trí của bạn ở bất cứ đâu
+Name: Relocate Reborn VH
+Author: Nepeta
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
 
 Package: com.bingner.plutil
 Architecture: iphoneos-arm
@@ -186,26 +216,6 @@ Description: plutil as from erica sadun
 Tag: role::hacker
 Name: plutil
 Author: Samuel Bingner
-
-Package: com.bonios.8BallPool
-Architecture: iphoneos-arm
-Version: 5.5.3+iOSGods.com
-Section: Hacks
-Maintainer: Dev.Bonios
-Installed-Size: 10112
-Depends: mobilesubstrate
-Filename: ./Deb/com.bonios.8BallPool_5.5.3+iOSGods.com_iphoneos-arm.deb
-Size: 2419228
-MD5sum: 55ce8c206a9c61db84a80b412f31059a
-SHA1: 8319c9e75a048c943cdcac57204e34c41c1a48ec
-SHA256: cbf02e55d96b8316aff7d48412496c904c818c2fd1c51da020a2c5e59fffc427
-SHA512: f21f53d53e7abcab4fbace167dcfba918b66e09c6e5992c8e902d1d8bc1ba1debd655d7808a63c5d1b2652fac1ad39000067d088c6766455c94f840be17da2a8
-Homepage: https://bonios.github.io/info/8BallPool/?p=info
-Description: Hacks 8 Ball Pool
-Name: 8 Ball Pool Cheats
-Author: Laxus
-Depiction: https://bonios.github.io/info/8BallPool/?p=info
-SileoDepiction: https://bonios.github.io/Sileoinfo/8BallPool.json
 
 Package: com.bonios.a-bypass
 Architecture: iphoneos-arm
@@ -295,6 +305,27 @@ Name: Docky VN
 Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
 Author: Nepeta
 
+Package: com.bonios.filza
+Architecture: iphoneos-arm
+Version: 4.0.1-2
+Section: Utilities
+Maintainer: TIGI Software
+Installed-Size: 34948
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: ./Deb/com.bonios.filza_4.0.1-2_iphoneos-arm.deb
+Size: 13940172
+MD5sum: ae3577c56653a263d6deb4fe7f862b3c
+SHA1: 8f32bbc531b87540b39db301637622f2cb0e9582
+SHA256: 48ed6b40feacb60f5fe8abf862d698206543263f35da88cc8c6e890f08cc0a12
+SHA512: 32b5562889185cd51eafb63f938dfe851d13db85b34e92ab7553ab14b355d8f5d0e19c4edc077a0f8737c1850d28a5a933a7a97edd1cf792630a8088b2695586
+Description: Trình quản lý tệp cho iPhone, iPad, iPod Touch. Hỗ trợ iOS 7+
+Name: Filza File Manager VH
+Depiction: http://bvnsupport.github.io/infodeb/Filza1/?p=info
+SileoDepiction: https://bvnsupport.github.io/sileodepictions/Filza1.json
+Icon: file:///Applications/Cydia.app/Sections/tienichh1.png
+Author: TIGI Software
+
 Package: com.bonios.flex3beta
 Architecture: iphoneos-arm
 Version: 1:3~Beta97
@@ -353,23 +384,6 @@ Name: Bàn Phím Đen Bo Tròn
 Author: BoniOs
 Depiction: https://bonios.github.io/info/ban-phim-bo-tron/?p=info
 
-Package: com.bonios.lqmbvn
-Architecture: iphoneos-arm
-Version: 1.4.5.17
-Section: Games
-Maintainer:  @BoniOS
-Installed-Size: 1096
-Depends: mobilesubstrate
-Filename: ./Deb/com.bonios.lqmbvn_1.4.5.17_iphoneos-arm.deb
-Size: 409674
-MD5sum: 69f77abc906f07c87890aeae8f2a50b8
-SHA1: e9928cec2506e68a447d86d9dff6bf43b44f67e3
-SHA256: e56c8bc49d5a9907772d4e8153661edbf5a9af5435a0d9f973d518b2734b8b09
-SHA512: 42cdc29054eedfb472bc044cabf93139b01c960b4e1480b248749b7f63dc7276bc43ddcd3e59b8f042b18f17aa7031a4f4fa0ec6d59a0c6e41ba65212f235280
-Description: Menu LQMB VN (3F touch)
-Name:  LQMB VN 1.4.5.17
-Author:  @BoniOS
-
 Package: com.bonios.netkillui11
 Architecture: iphoneos-arm
 Version: 0.2.1-1
@@ -404,25 +418,6 @@ SHA512: 5f2db5f914e205b2cdd61986d0fc919d44459c7037f6f0de37bd8466ddfed1e065405f9b
 Description: Wall 2 nút màu vàng
 Name: Hack Pubg wall 2 nút
 Author: bonios
-
-Package: com.bonios.PullOverPro14
-Architecture: iphoneos-arm
-Version: 2.1.1
-Priority: optional
-Section: Tweaks
-Maintainer: BoniOs
-Depends: com.bonios.cracktool4 | com.julioverne.cracktool4, firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
-Conflicts: com.bonios.PullOverPro
-Filename: ./Deb/com.bonios.pulloverpro14_2.1.1_iphoneos-arm.deb
-Size: 1568488
-MD5sum: fe7325fd384a2a62e316b6caf20f5105
-SHA1: 960f11bfe00fbdec6d96e03d95173015c3150903
-SHA256: 10e00543afe4d8548c1b1d0cdeef1ae5df2b1c7476829ef149c44f13587615a2
-SHA512: f87133af5166c0103f826b1b41a4dc231226234bd292be8a6d53a64301b3f8c58d5008527950a3a1c21760ec8effb72de8635f5be6e00c4af4388653603c0784
-Description: Cửa sổ đa nhiệm hoàn hảo cho thiết bị của bạn!
-Name: PullOver Pro 14 Fix
-Author: c1d3r
-Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
 
 Package: com.bonios.tiktoknoads
 Architecture: iphoneos-arm
@@ -705,6 +700,67 @@ Author: Kabir Oberai <support@kabiroberai.com>
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: kabiroberai
 
+Package: com.kingpuffdaddi.hotspotqr
+Architecture: iphoneos-arm
+Version: 1.1.3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./Deb/com.kingpuffdaddi.hotspotqr_1.1.3_iphoneos-arm.deb
+Size: 7582
+MD5sum: 04d0bc33a0e09208d26fd1d230d95af7
+SHA1: 16e99280e40df7dc2a7f0aaccc83657c3b49b052
+SHA256: eadd7ba9cc1e6571f28ac3eb4cb7bf432ecf2ac2ac935789de2655552be9cdf6
+SHA512: 88585bbdb9a116688af9363afb5fffd3fc3630ea2b5488abb0c1ca7abe299bf9d05e3fa6971346d4a92367226d118d50c412b4f1878eb0a37b4634f5b498cfff
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hotspotqrDp
+Description: Generate a QR Code for your personal hotspot directly in the settings
+Tag: purpose::extension
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hotspotqrDp
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Name: HotspotQR
+dev: kingpuffdaddi
+
+Package: com.kingpuffdaddi.wifiqr
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 317
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./Deb/com.kingpuffdaddi.wifiqr_1.1.1_iphoneos-arm.deb
+Size: 25570
+MD5sum: e6efbe8ebe73826ef88697d6b10cb1d5
+SHA1: a9eaa86150cde976806c07427f652925a9c7f8ac
+SHA256: 4998da86c9726c6690196b29b96278e35e236295afa925ea165edbd1f85a54f9
+SHA512: cf84927cd4f56fd96ba9eb740f3931c8a7165de540f5e22bf2aec1517c7559583e00d8220a5f0289005812fd618631f0f7eb6353da3d83f6eba48786e38127a0
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Description: Generate a QR code for WiFi networks directly from the settings
+Tag: purpose::extension
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Name: WiFiQR
+dev: kingpuffdaddi
+
+Package: com.kinken.fakepicturecracked
+Architecture: iphoneos-arm
+Version: 1.6.5
+Section: Tweaks
+Maintainer: kinken
+Installed-Size: 11128
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14)
+Filename: ./Deb/com.kinken.fakepicturecracked_1.6.5_iphoneos-arm.deb
+Size: 3571040
+MD5sum: 5ca0736729e6aa98d0a39caf57845ef4
+SHA1: 0a8bec4d2f7d2f4a9ad25ad0f2b06918ed5ae2b0
+SHA256: d1488105dc75e8aa93e6363b357127bfa20636a85acd4fb3188bb82b594cf657
+SHA512: 87235e0a05fafd643db09e380232eb3a2c711c51c60f5220a4474e1a96aaf42db8c6830730b860f816e756b653474db722ced60647bae9059a03a849d5f35e03
+Description: Fake Picture is used for fake picture taking when Apps ask to take a picture from iPhone camera
+    Fake Picture is used for fake picture taking when Apps ask to take a picture from iPhone camera. So the app will get a replaced image which you set. It's a good way to protect your privacy. 虚拟拍照，能够替换应用请求摄像头拍照的图片，让应用得到任意你设置的照片。它是一个魔法相机，实现模拟照相机功能，从而保护你的个人相片隐私。
+Author: Joe Bruce
+Name: FakePicture(拍照替换) Cracked
+Depiction: https://kkyuen.github.io/repo/depictions/?p=com.kinken.fakepicturecracked
+
 Package: com.lema.wolf
 Architecture: iphoneos-arm
 Version: 2.1
@@ -728,6 +784,46 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Michael Lema <samewhitetee@gmail.com>
 dev: lema
 Icon: file:///Library/Application%20Support/Wolf.bundle/wolf-icon@2x.png
+
+Package: com.level3tjg.insert-dylib
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: System
+Maintainer: level3tjg
+Filename: ./Deb/com.level3tjg.insert-dylib_1.0.3_iphoneos-arm.deb
+Size: 40636
+MD5sum: 789c283a43282dfa23f3ae7de8ee3b5d
+SHA1: 01e86b06b89109c0a0249cb0a7e805b750223230
+SHA256: 92f729cbf5aa9e80c34a8f76ec42d4310c0f09fc8b9f8a2b54b8cb53ca018497
+SHA512: 9a221a8ff9d0092ce3bf94eeb773811a9e26896b54ff73f9a938953e8e17c800e803fd884f1f78f5e20b361a6ef1e81eec9adb06fe051e5d8d1f613f63baa651
+Description: Command line utility for inserting a dylib load command into a Mach-O binary. https://github.com/Tyilo/insert_dylib
+Tag: role:hacker
+Name: insert_dylib
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.insert-dylib
+Author: level3tjg
+
+Package: com.linusyang.appinst
+Architecture: iphoneos-arm
+Version: 1.1.4
+Priority: standard
+Section: Utilities
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 392
+Pre-Depends: firmware (>= 5.0)
+Depends: net.angelxwind.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Filename: ./Deb/com.linusyang.appinst_1.1.4_iphoneos-arm.deb
+Size: 75224
+MD5sum: bc07d52e849498a244f392d09b8d1ae8
+SHA1: b8e7578118cee54ddb49b739907ad015310601c8
+SHA256: 2b1cce8defe3eba168c4fbd038c8dac4e8ffe7bb8c4ddeba178f8b0a6c597d25
+SHA512: 5b41d6eeb45c74f18366595b87895e64e0c4d9d9f5bcc32f86691c8608f0c6f2e90b6201c6d98b06cc72d2ff3b53ea4697906ce321a5abf3a31ea405e93705b1
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: Install IPAs from the command line
+Tag: role::enduser, purpose::console
+Name: appinst (App Installer)
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/com.linusyang.appinst
 
 Package: com.miro.shortmoji
 Architecture: iphoneos-arm
@@ -915,6 +1011,49 @@ Sileodepiction: http://repo.kenhtao.net/sileo-depiction/com.repo.repo.kenhtao.ne
 Depiction: https://repo.kenhtao.net/view/2782
 Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
 
+Package: com.REPOCYDIABVN.PullOverPro15
+Architecture: iphoneos-arm
+Version: 15.17-2
+Section: Tweaks
+Maintainer: Biện Văn Nhật
+Installed-Size: 1488
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./Deb/com.repocydiabvn.pulloverpro15_15.17-2_iphoneos-arm.deb
+Size: 495518
+MD5sum: c334a0394b8e15422ab8971a122ff6c8
+SHA1: a6f3934c242bc792443592beebf23b002a4363a9
+SHA256: 0304396b11a905f93f1bfc54a3a56fe679c9c8dbdd85ffe6b196ac3a4bf82d60
+SHA512: 56d0a55bca535dacd95ce0b60e8b9a36ce278f6d8f0f7baf94fa3dc6bf3ac59bcf700676f479545a5350a15f83658dd7cb5b1d000dba759920e714cfda0f7469
+Description: Một cách tốt hơn để đa nhiệm! Hỗ trợ khắc phục cho iOS14-iOS16
+Name: PullOver Pro VH(iOS11/15)
+Author: c1d3r
+Depiction: https://bvnsupport.github.io/depictions/PullOver.html
+SileoDepiction: https://bvnsupport.github.io/sileodepictions/PullOver.json
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+
+Package: com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Version: 1.0.10~beta1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./Deb/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+Size: 38344
+MD5sum: b52417e29631c59cdb267379e71e2a69
+SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
+SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
+SHA512: 42b13ee05ce8766a02c3dc4779752c97a2bd379690c928101cc590a3204af7f322051badf1e810faf4ab2c0520d00abc1df8e4aea86473b2f7b69c213c900d8e
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Name: RocketBootstrap
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+
 Package: com.subdiox.storeswitcher2
 Architecture: iphoneos-arm
 Version: 1.0.3
@@ -931,6 +1070,25 @@ SHA512: 8618caabe5a1737a834c2b7b01bcda2b4fb525aa27e219304136560e4e0d6efa0d4340fb
 Description: Adds a button to switch account in App Store account page on iOS 11+.
 Name: StoreSwitcher 2
 Author: subdiox
+
+Package: com.supportjilbreak.cydownvn
+Architecture: iphoneos-arm
+Version: 7.1.2
+Section: Tweaks
+Maintainer: Biện Văn Nhật
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Filename: ./Deb/com.supportjilbreak.cydownvn_7.1.2_iphoneos-arm.deb
+Size: 4302078
+MD5sum: d04f74e403e5efdd2cca844be2941fcf
+SHA1: f3cb1c0f62776907991dbbba0ad5ec7ff205f649
+SHA256: 3d109fb003197d92264632a9f15e114a01b0a4a7ef02a081efcf51946ef31d7e
+SHA512: 74371277275a1432c46a8322ea50cc55cafaced9a162d2722a6558832f51c7958744979a6f5b5fe7c6cdb950f6186f950ccd8394e3179aaf90c0f2e2a7f1c21f
+Homepage: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Description: Trình quản lý nâng cao hơn dành cho Cydia.Hack các Tweak ở các nguồn khác nhau,sao lưu&khôi phục các nguồn và tinh chỉnh trực tuyến,chặn quảng cáo và nhiều chức năng khác!
+Name: CyDown VH
+Author: julioverne <julioverne@me.com>
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
 
 Package: com.thireus.hostscleaner
 Architecture: iphoneos-arm
@@ -1117,24 +1275,6 @@ SHA512: 55a7874460c031e351aaab242786a66e4bb01181c8f1bd44c155ec63a57802141629501e
 Description: fast content-addressable filesystem
 Name: Git
 
-Package: iOSGods.com.8BallPool
-Architecture: iphoneos-arm
-Version: 5.6.2+iOSGods.com
-Section: Tweaks
-Maintainer: iOSGods.com
-Installed-Size: 10112
-Depends: mobilesubstrate
-Filename: ./Deb/iOSGods.com.8BallPool.deb
-Size: 2417562
-MD5sum: b0e35a97744baadc8ed6610c6641b661
-SHA1: 24a6c083f30b83bb000e3cd9f3672bc1bc8e7347
-SHA256: 678b3d8a139aa39676236e214674b950a82335b50cc90e71e3e21f9549982967
-SHA512: 1037005c4314e2dcefe98a39beee2c9009c8ceb3c6ecff11171a2b78a49d3ab4c60b5b8aa2ae1a749502fe4644abe72015bfa0540b83b9f80001dfd38bfbe9be
-Homepage: https://iosgods.com
-Description: 8 Ball Pool iGMM Cheats by Laxus for iOSGods.com!
-Name: 8 Ball Pool Cheats
-Author: Laxus
-
 Package: jetslammed
 Architecture: iphoneos-arm
 Version: 1.2
@@ -1152,6 +1292,33 @@ Name: Jetslammed
 Author: Mario Ciabarra <https://github.com/mariociabarra/jetslammed>
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 Depiction: http://modmyi.com/info/jetslammed.d.php
+
+Package: jq
+Architecture: iphoneos-arm
+Version: 1.6-1
+Priority: optional
+Section: System
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 120
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libjq1
+Filename: ./Deb/jq_1.6-1_iphoneos-arm.deb
+Size: 8530
+MD5sum: 54fa5e008516e7341f5db9f5dcca3aac
+SHA1: ad8cca2a4db9b4fa12e49401543350b1387ddd94
+SHA256: 132f9fc9d5367e44e70d40062a22b520d7e4809372ebed8522ddd9a8be072df6
+SHA512: 661afba049bcb9065930c75e4eba9914f1be5722244cab1f7ec609a4f749cc7eee5fee87fc4c55c09fd67305a0fd9728513e42f8c641f1c7a89e334eb2d29380
+Homepage: https://github.com/stedolan/jq
+Description: lightweight and flexible command-line JSON processor
+ jq is like sed for JSON data - you can use it to slice and filter and 
+ map and transform structured data with the same ease that sed, awk, 
+ grep and friends let you play with text.
+ .
+ It is written in portable C, and it has minimal runtime dependencies.
+ .
+ jq can mangle the data format that you have into the one that you want 
+ with very little effort, and the program to do so is often shorter and 
+ simpler than you'd expect.
 
 Package: ld64
 Architecture: iphoneos-arm
@@ -1283,6 +1450,35 @@ SHA256: 23cc2c09db28c7792c1266702881cd6fb5791712ce8195888be72373d54ca44d
 SHA512: ee06dc0e36e0ae7bf94c30390e7b05f7887cac040f154e21e7e11760b041ff7c5d0c382dda42356f26107bab5caf81f64aad624fa85c1852c0c28b5e9bf91e7f
 Description: dynamic generation of function calls
 
+Package: libjq1
+Architecture: iphoneos-arm
+Version: 1.6-1
+Priority: optional
+Section: System
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 752
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libonig5
+Filename: ./Deb/libjq1_1.6-1_iphoneos-arm.deb
+Size: 108644
+MD5sum: a966cfb5a5855a29a07eefecc1621f34
+SHA1: 318c3032b0c63c19d10db4c9944a4025ef69dd53
+SHA256: e0544ce6d22b0e4c2b5e229d691c3cbe87a8e8a91af5da831846b7f994daf82d
+SHA512: 5c83b7ae0b8184d709729b56041d2659769bce438352dea7215efadc18ec5b9be9dbb5c7558760241795f4b6195509c56453b64bf78dc0a9d219f65c52523cfa
+Homepage: https://github.com/stedolan/jq
+Description: lightweight and flexible command-line JSON processor - shared library
+ jq is like sed for JSON data - you can use it to slice and filter and 
+ map and transform structured data with the same ease that sed, awk, 
+ grep and friends let you play with text.
+ .
+ It is written in portable C, and it has minimal runtime dependencies.
+ .
+ jq can mangle the data format that you have into the one that you want 
+ with very little effort, and the program to do so is often shorter and 
+ simpler than you'd expect.
+ .
+ This package contains the shared library.
+
 Package: libllvm10
 Architecture: iphoneos-arm
 Version: 10.0.0~svn-20200108+247e5b37d63-1
@@ -1336,6 +1532,27 @@ SHA256: 7c565c5dbcf6b6d76117ea8cbed650ae6630d93d068769ede4f53d96af621a99
 SHA512: 4e1039b860df0a7c8764f56243460aeabcd47472b7148847765d29cd9d3b540016ebe1ad96e215476991b7e222d0667ada44210e7648fdc75ee6cd7e36549a4a
 Homepage: https://nghttp2.org/
 Description: library implementing HTTP/2 protocol (shared library)
+
+Package: libonig5
+Architecture: iphoneos-arm
+Version: 6.9.6-1
+Priority: optional
+Section: System
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1224
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Deb/libonig5_6.9.6-1_iphoneos-arm.deb
+Size: 139138
+MD5sum: 7d0d1f614f70c458749a5fef39afdc53
+SHA1: fd5bae642138547327fa6349a9312001e8b1de93
+SHA256: 74ea5a83e0bf503e81932a74d7f3b63e2a028ea7b4b9ad2a622307255d702c71
+SHA512: 8366def4311cd4b4dd36510b70da1b4bb1b086becfa904275acf87d50a880109b32071d0bd007401438a00e28bc20ae25ed47457f0caca759aae56cfe2ab68cd
+Homepage: https://github.com/kkos/oniguruma
+Description: regular expressions library
+ Oniguruma is a library for working with regular expressions.
+ .
+ Different character encoding for every regular expression object can be 
+ specified.
 
 Package: libssh2
 Architecture: iphoneos-arm
@@ -1410,6 +1627,27 @@ Description: very popular XML parser from Gnome
 Name: libxml2
 Depiction: http://cydia.saurik.com/info/libxml2/
 
+Package: libzstd1
+Architecture: iphoneos-arm
+Version: 1.4.8-1
+Priority: optional
+Section: Development
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1808
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Deb/libzstd1_1.4.8-1_iphoneos-arm.deb
+Size: 254348
+MD5sum: c3c5762019ce283bdde61eaca2680376
+SHA1: 3404b64a14e7d5777590b08f22fcc86cc126acf7
+SHA256: 361e804fb999bf8f08ba99a6cece0e791e33d4f7be0a8a999ea28616886a4f4e
+SHA512: f1619516e416057683e6f9eaf523701c078b7966cce60714b0c884a796d8f65ca8054cb264fb61a41bd70106a27422fbaf40eae8a5d818fec4fc63202cec86d4
+Description: fast lossless compression algorithm
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, 
+ targeting real-time compression scenarios at zlib-level compression 
+ ratio.
+ .
+ This package contains the shared library.
+
 Package: llvm-10
 Architecture: iphoneos-arm
 Version: 10.0.0~svn-20200108+5c253cd01-1
@@ -1462,6 +1700,25 @@ SHA256: 1e74d832608dfd7c104b4dd1024da39697049f569e0bf8854d508bdcbd477f50
 SHA512: 20f390b67a6ed97172cfebf97aa206f9ff278b70bb234233978b21d21b0205ab14667a75774d65e065f8b7da285dd1f260c329221fffe628f48edc9185c4d84e
 Description: dependency-based build environments
 Name: Make
+
+Package: me.alfhaily.opencli
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 68
+Filename: ./Deb/me.alfhaily.opencli_1.0.0_iphoneos-arm.deb
+Size: 2504
+MD5sum: 64f400c8a9a649697e5e54f1a11d9cf4
+SHA1: 483c509d55722eaa84ada3ed2dc335f061850c8a
+SHA256: c4b201a5591a339245b3cd309a1de4bcbaec594c6ff2943b5c478e5f54f00e43
+SHA512: ab0e59544b9d6683bed21365212f320fe1302db386d7a1a0140fa52ed4ceb842d64404ff996ba3cd8486d29a9f829762498215f7b5cdeeb13ffe261252742efd
+Description: Launch apps from the command-line, originally made by Conrad Kramer. This package is updated to work with Electra 11.x.
+Tag: purpose::console, role::hacker
+Author: Majd Alfhaily <freemanrepo@me.com>
+Name: Open
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: freemanrepo
 
 Package: mterminal
 Architecture: iphoneos-arm
@@ -1962,6 +2219,26 @@ SHA512: dc65e204ba2eb21697d581a50f48edef4b4b5c4a00b4a1a02b1f5da308ea10adde3b107d
 Description: awesome combination of sed and awk
 Name: Perl
 
+Package: preferenceloader
+Architecture: iphoneos-arm
+Version: 2.2.7
+Section: System
+Maintainer: Biện Văn Nhật
+Installed-Size: 526
+Depends: mobilesubstrate
+Conflicts: ru.rj.meredith, org.mr.meredith, org.mr.smartvolumemixer2, org.mr.smartvolumecontrol3, ru.rj.smartvolumemixer2, ru.rj.smartvolumecontrol3, ru.rj.appdatamanager, org.mr.multipla, org.mr.autotouch, github.io.gfp.veloxreloaded, github.io.gfp.veza, github.io.gfp.indy, github.io.gfp.aperio, org.mr.dra1n, org.mr.fabric2, ru.rj.fabric2, org.mr.filza, ru.rj.veloxreloaded, org.mr.veloxreloaded, org.mr.veza, ru.rj.veza, org.mr.indy, ru.rj.indy, org.mr.safeshutdownn
+Filename: ./Deb/preferenceloader_2.2.7_iphoneos-arm.deb
+Size: 67834
+MD5sum: 77c69799a275e38902efffe9a511ff3d
+SHA1: cadf831cd8c8daad8dfecba8a0cf5cf8771b6622
+SHA256: 717ceda00b4e60257f114bf68b99140f26d631e4f73ed22c82f985e018dd4a5e
+SHA512: 24abf98721fe330d431b751411d895a8b842ab737f7e5a93434f54623b62378fd8b391d8637cd47f516622726a1ae559e3c80c1ffd63cc639259672091bae062
+Description: load preferences in style
+Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Name: PreferenceLoader
+Author: Sam Bingner <maintainer@sbdhi.com>
+Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
+
 Package: python
 Architecture: iphoneos-arm
 Version: 2.7.15-2
@@ -2340,4 +2617,26 @@ SHA1: 32ea892c1964f8f6893b0d157b5497aab3769588
 SHA256: 55b500e5750a7fe9395f8571749c0e04a90111b271832e552b6a3cf64324393c
 SHA512: 70ce8952aaf4527a8adc7662165419b4af7124dec61d449fbb94d2f0a25a81df74e16437b35c51ee0bdb17338fb7dc4e1d6b8b120c965cc4179d72510b962ae9
 Description: standard Windows compression tool
+
+Package: zstd
+Architecture: iphoneos-arm
+Version: 1.4.8-1
+Priority: optional
+Section: Development
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 2040
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libzstd1
+Filename: ./Deb/zstd_1.4.8-1_iphoneos-arm.deb
+Size: 298284
+MD5sum: 189018b32f541abba416b3177023f217
+SHA1: 5b8f5c44d6ae5cf85a5065f11b967fa76e3f7d9c
+SHA256: 95bb4c2f4ebe87fd54216c48ebf7e248e001ad069fb1b592ff6eef9db3db9c90
+SHA512: fabb41689d70c95418e34cbc99e43243c30519fef0f7c96aa9854f7f640077038446d4b637528ad7a91d126c3c864c9aebe69986207a54b5943229306603a0ec
+Description: fast lossless compression algorithm - CLI tool
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, 
+ targeting real-time compression scenarios at zlib-level compression 
+ ratio.
+ .
+ This package contains the CLI program implementing zstd.
 
