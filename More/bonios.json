@@ -5,29 +5,21 @@
     "Function":
     [
         {
-            "按钮名字":"gói dữ liệu",
-            "解压目录":"Library",
-            "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
+            "titlebutton":"Library",
+            "Folder":"Library",
+            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
+
         {
-            "按钮名字":"Gói giải thích",
-            "解压目录":"Library",
-            "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
+            "titlebutton":"Documents",
+            "Folder":"Documents",
+            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
+
         {
-            "按钮名字":"Lưu trữ 1",
-            "解压目录":"Documents",
-            "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
-        },
-        {
-            "按钮名字":"Lưu trữ 2",
-            "解压目录":"Documents",
-            "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
-        },
-        {
-            "按钮名字":"NongShiFu123",
-            "解压目录":"",
-            "下载地址":""
+            "titlebutton":"NongShiFu123",
+            "Folder":"Library",
+            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         }
     ]
     
