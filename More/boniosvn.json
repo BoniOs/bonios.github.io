@@ -5,21 +5,21 @@
     "Function":
     [
         {
-            "titlebutton":"Library",
+            "TextButton":"Library",
             "Folder":"Library",
-            "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
+            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
 
         {
             "titlebutton":"Documents",
             "Folder":"Documents",
-            "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
+            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
 
         {
-            "titlebutton":"NongShiFu123",
+            "titlebutton":"BoniOSVN",
             "Folder":"Library",
-            "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
+            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         }
     ]
     
