@@ -11,13 +11,13 @@
         },
 
         {
-            "titlebutton":"Documents",
+            "TextButton":"Documents",
             "Folder":"Documents",
             "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
 
         {
-            "titlebutton":"BoniOSVN",
+            "TextButton":"BoniOSVN",
             "Folder":"Library",
             "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         }
