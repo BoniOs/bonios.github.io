@@ -5,25 +5,17 @@
     "功能":
     [
         {
-            "按钮名字":"Library 1",
+            "按钮名字":"Library",
             "解压目录":"Library",
             "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
-        {
-            "按钮名字":"Library 2",
-            "解压目录":"Library",
-            "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
-        },
+
         {
             "按钮名字":"Documents 1",
-            "解压目录":"Documents",
+            "解压目录":"Documents/Resources/1.53.1",
             "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
-        {
-            "按钮名字":"Documents 2",
-            "解压目录":"Documents",
-            "下载地址":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
-        },
+
         {
             "按钮名字":"NongShiFu123",
             "解压目录":"",
