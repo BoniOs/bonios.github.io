@@ -5,15 +5,15 @@
     "Function":
     [
         {
-            "TextButton":"Library",
-            "Folder":"Library",
-            "linkurl":"https://bonios.github.io/Skin/Resources.zip"
+            "TextButton":"Documents",
+            "Folder":"Documents",
+            "linkurl":"https://bonios.github.io/Skin/Skin1531.zip"
         },
 
         {
-            "TextButton":"Documents",
-            "Folder":"Documents",
-            "linkurl":"https://bonios.github.io/Skin/Resources.zip"
+            "TextButton":"Library",
+            "Folder":"Library",
+            "linkurl":"https://bonios.github.io/Skin/Skin1531.zip"
         },
 
         {
