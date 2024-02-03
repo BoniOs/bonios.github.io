@@ -7,19 +7,19 @@
         {
             "TextButton":"Library",
             "Folder":"Library",
-            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
+            "linkurl":"https://bonios.github.io/Skin/Resources.zip"
         },
 
         {
             "TextButton":"Documents",
             "Folder":"Documents",
-            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
+            "linkurl":"https://bonios.github.io/Skin/Resources.zip"
         },
-
+/*
         {
             "TextButton":"BoniOS1",
             "Folder":"BoniOS1",
-            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
+            "linkurl":"https://bonios.github.io/Skin/Resources.zip"
         },
 
         {
@@ -33,11 +33,11 @@
             "Folder":"BoniOS3",
             "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
         },
-
+*/
         {
             "TextButton":"Password",
             "Folder":"Q",
-            "linkurl":"https://bonios.github.io/Skin/Mod_5_Skin.zip"
+            "linkurl":"https://bonios.github.io/Skin/Resources.zip"
         }
 
     ]
