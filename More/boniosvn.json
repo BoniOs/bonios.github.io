@@ -5,21 +5,21 @@
     "Function":
     [
         {
+            "TextButton":"Library",
+            "Folder":"Library",
+            "linkurl":"https://bonios.github.io/Skin/65skinpack.zip"
+        },
+
+        {
             "TextButton":"Documents",
             "Folder":"Documents",
             "linkurl":"https://bonios.github.io/Skin/65skinpack.zip"
         },
 
         {
-            "TextButton":"Library",
-            "Folder":"Library",
-            "linkurl":"https://bonios.github.io/Skin/Lili.zip"
-        },
-
-        {
-            "TextButton":"Password",
-            "Folder":"Q",
-            "linkurl":"https://bonios.github.io/Skin/Resources.zip"
+            "TextButton":"Restore",
+            "Folder":"Documents",
+            "linkurl":"https://bonioshax.vn/Mod/Restore-1.53.1.zip"
         }
 
     ]
