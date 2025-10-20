@@ -1,4 +1,4 @@
-result = user123:pass123 | NAME : Nguyễn Văn A |
+result = user123:passkb | NAME : Nguyễn Văn A |
 result = john_doe:password123 | NAME : John Doe |
 result = alice2024:alicepass | NAME : Alice Smith |
 result = bobtran:bobpassword | NAME : Trần Văn B |
