@@ -1,0 +1,10 @@
+result = user123:pass123 | NAME : Nguyễn Văn A |
+result = john_doe:password123 | NAME : John Doe |
+result = alice2024:alicepass | NAME : Alice Smith |
+result = bobtran:bobpassword | NAME : Trần Văn B |
+result = minhle:minhpass | NAME : Lê Thị Minh |
+result = vip_account:vip123 | NAME : VIP User |
+result = testuser:testpass | NAME : Test Account |
+result = demo:demopass | NAME : Demo User |
+result = free_user:freepass | NAME : Free Account |
+result = premium:premium123 | NAME : Premium User |
